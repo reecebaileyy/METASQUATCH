@@ -1363,7 +1363,7 @@ pragma solidity >=0.7.0 <0.9.0;
 
 
 
-contract todez is ERC721, Ownable {
+contract METASQUATCH is ERC721, Ownable {
   using Strings for uint256;
   using Counters for Counters.Counter;
 
@@ -1384,8 +1384,8 @@ contract todez is ERC721, Ownable {
   mapping(address => uint256) public addressToFreeMinted;
 
 
-  constructor() ERC721("TODEZ", "TODEZ") {
-    setHiddenMetadataUri("ipfs://Fuckyournft/hidden.json");
+  constructor() ERC721("METASQUATCH", "SQUATCH") {
+    setHiddenMetadataUri("ipfs://CID_HERE/hidden.json");
   }
 
   modifier mintCompliance(uint256 _mintAmount) {
