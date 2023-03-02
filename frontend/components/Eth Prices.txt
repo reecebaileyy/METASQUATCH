@@ -1,0 +1,6 @@
+.19642143 Minisquatch
+0.04759681 Reward Pool
+0.03913755 Token
+
+window.localStorage.setItem('key', 'value')
+window.localStorage.setItem('key')
