@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@font-face {
+  font-family: Now-Regular;
+  src: url("/fonts/Now-Regular.otf");
+}
+@font-face {
+  font-family: Now-Bold;
+  src: url("/fonts/Now-Bold.otf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply font-inter;
+}
+
+#__next {
+ 
+}
+body {
+  color:black;
+}
